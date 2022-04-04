@@ -1,0 +1,84 @@
+.Header{
+	display: flex;
+	background-color: #fab1a0;
+	color: white;
+	overflow: hidden;
+	width: 100%;
+	justify-content: space-between;
+}
+.Header a {
+  text-decoration: none;
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  line-height: 50px;
+  border-radius: 4px;
+}
+.Logo{
+	display: inline-flex;
+	justify-content: flex-start;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+}
+.Header a:hover {
+  color: #ff7675;
+}
+
+.RightHeader{
+	display: flex;
+	float: right;
+	align-items: right;
+}
+
+
+.Search-box{
+	display: inline-flex;
+	float: left;
+}
+.Search-box:hover > .Search-text{
+    width: 150px;
+}
+.Search-button{
+	color: #ffffff;
+	pointer-events: none;
+}
+
+.Search-text{
+	border: none;
+	background:none;
+	outline: none;
+	width: 0px;
+	color: #ffffff;
+	font-size: 20px;
+	transition: 0.8s;
+	
+}
+::placeholder { 
+  color: #ffffff;
+}
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+  .Header {
+  	display: block;
+}
+
+.Logo{
+	display: block;
+}
+
+.RightHeader{
+	display: block;
+	float: left;
+}
+
+
+.Search-box{
+	display: inline-flex;
+	float: left;
+}
+}

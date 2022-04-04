@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quick View</title>
+	<link rel="stylesheet" type="text/css" href="QuickView.css">
+	<script type="text/javascript" src="QuickView.js"></script>
+</head>
+<body>
+<button onclick="showPopUp()">Show Pop Up</button>
+<div class="QuickView" id="QuickView">
+	<div class="QuickViewContainer" id="QuickViewContainer">
+		<span class="close" onclick="closePopUp()" >&times;</span>
+			<img src="Dress1.jpg" width="auto" height="500px">
+		    <div class="QuickViewContent">
+			<span>Dress 1</span><br>
+			<span class="Pprice">PKR1200</span><br>
+			<span class="Pdesc">Shalwar & Qameez</span><br>
+			<span>Color: Red</span>
+			<div class="color"></div><br>
+			<span>Material: Lawn</span><br>
+			<span>Quantity:</span><br>
+			<div class="QuickViewQuantity">
+				<button onclick="decrementQty()" class="QuickViewButton" id="QtyButton">-</button>
+			    <input name="Quantity" value="1" id="QtyInput" type="text" pattern="\d*" maxlength="2">
+			    <button onclick="incrementQty()" class="QuickViewButton" id="QtyButton">+</button><br>
+			</div><br>
+			<button class="QuickViewButton" id="CartButton">Add to cart</button><br>
+			<span>Availability:In Stock</span>
+		    </div>
+		</div>	
+	</div>
+
+</body>
+</html>

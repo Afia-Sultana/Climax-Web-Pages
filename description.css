@@ -1,0 +1,141 @@
+.QuickViewButton{
+      outline: none;
+      border:none;
+      background-color: #ff7675;
+      color: #ffffff;
+      
+    }
+    .QuickViewQuantity{
+      display: flex;
+      width: 120px;
+      justify-content: space-around;
+      alignment-baseline: 
+      font-size: 29px;
+    }
+    #QtyButton{
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+    }
+    .QuickViewButton:hover{
+      color: #d63031;
+    }
+    #QtyInput{
+      width: 20px;
+      outline: none;
+      border:none;
+      text-align: center;
+      line-height: 25px;
+    }
+    .productdetails
+{
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+.descform{
+display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+.detail
+{
+width:30%;
+height: auto;
+justify-content: space-around; 
+}
+.ProductImage{
+  width: 30%;
+  height: auto;
+  margin-left: 5vw;
+}
+.service
+{
+width:30%;
+}
+.pname
+{
+	 font-size: 2vw;
+   color: #fab1a0;
+   font-family: monospace;
+}
+.PPrice
+{
+	color:#ff7675;
+	font-size: 2vw;
+}
+#Services
+{
+	padding-top: 90px; 
+}
+.addtocart
+{
+  background-color:#ff7675;  
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1.5vw;
+}
+
+.addtocart:hover{
+  cursor: pointer;
+  background-color:white;
+  color: #ff7675;
+  outline: solid;
+  outline-color: #ff7675 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .productdetails
+{
+  display: block;
+  align-items: center;
+}
+.descform{
+display: block;
+align-items: center;
+}
+.detail
+{
+width:100%;
+}
+.ProductImage{
+  width: 50%;
+  height: auto;
+  margin-left: 5vw;
+}
+.service
+{
+height: auto;
+width:100%;
+margin-top: 0;
+}
+
+.pname
+{
+   font-size: 5vw;
+}
+.PPrice
+{
+  font-size: 5vw;
+}
+.addtocart{
+font-size: 5vw;
+}
+}

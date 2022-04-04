@@ -1,0 +1,28 @@
+.orderform
+{
+margin-left:400px;
+margin-right:400px;
+background-color: #fab1a0;
+height:350px;
+}
+
+.head
+{
+
+ background: #0B3F74;
+ color: white;
+ align-items:center; 
+}
+#n
+{
+	margin-left:160px;
+}
+.l1,.l2
+{
+	font-size:20px; 
+}
+.co
+{
+	background: #0B3F74;
+ color: white;
+}

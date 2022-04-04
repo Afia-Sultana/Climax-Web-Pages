@@ -1,0 +1,61 @@
+.ProductSection{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+  float: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.ProductCard {
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 270px;
+  height: 500px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+.ProductCardButtons{
+  position: relative;
+  top: -400px;
+  width: 270px;
+  height: 410px;
+  text-decoration: none;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+  opacity: 0;
+}
+.QuickViewIcon{
+  background-color: #ff7675;
+  border: none;
+  float: right;
+  border-radius: 50%;
+  color: white;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  outline: none;
+}
+.ProductPrice {
+  color: grey;
+  font-size: 18px;
+}
+.AddCartIcon:hover {
+  color: #d63031;
+  cursor: pointer;
+}
+.QuickViewIcon:hover {
+  color: #d63031;
+}
+.ProductImage:hover .ProductCardButtons{
+opacity: 1;
+}
+.ProductImage{
+  width: 270px;
+  height: 400px;
+  overflow: hidden;
+}
